@@ -1,10 +1,13 @@
-# Portfolio Setup
+---<img width="1896" height="912" alt="Screenshot 2026-03-25 185055" src="https://github.com/user-attachments/assets/c63831e2-5d42-4e90-bf0c-2180db87cdad" />
+
+
+# Portfolio Setup  
 
 A personal portfolio built to showcase my work in business strategy, product analytics, and full-stack development. Designed to be fast, minimal, and decision-focused — just like the work it presents.
 
 🌐 **Live:** [ https://agent-69c3de368--gurucharansenthilkumarportfolio.netlify.app/ ]
 
----
+
 
 ## About
 
