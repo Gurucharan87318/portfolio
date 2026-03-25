@@ -1,8 +1,17 @@
-export function App() {
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import LandingPage from "./components/LandingPage"
+
+function App() {
   return (
-    <div className="flex items-center justify-center min-h-screen">
-      <div className="font-medium">Hello World</div>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        {/* Add more routes later, e.g.:
+        <Route path="/projects/:id" element={<ProjectDetail />} />
+        <Route path="/case-studies/:slug" element={<CaseStudy />} />
+        */}
+      </Routes>
+    </BrowserRouter>
   )
 }
 
