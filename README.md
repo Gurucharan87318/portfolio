@@ -5,7 +5,7 @@
 
 A personal portfolio built to showcase my work in business strategy, product analytics, and full-stack development. Designed to be fast, minimal, and decision-focused — just like the work it presents.
 
-🌐 **Live:** [ https://agent-69c3de368--gurucharansenthilkumarportfolio.netlify.app/ ]
+🌐 **Live:** [ https://gurucharansenthilkumarportfolio.netlify.app/ ]
 
 
 
