@@ -14,6 +14,16 @@ import {
   Eye,
 } from "lucide-react"
 
+// TODO: add/remove imports as you add more assets
+import heroImg from "./assets/hero.jpeg"
+
+// Cert images
+import genai from "./assets/certs/genai.jpg"
+import certBusiness from "./assets/certs/BusinessValue.jpg"
+import certCashFlow from "./assets/certs/CashFlow.jpg"
+import certBCG from "./assets/certs/BCG.jpg"
+
+
 /**
  * LandingPage.tsx
  *
@@ -429,8 +439,8 @@ export default function LandingPage() {
   // ---------------------------------------------------------------------------
   // TODO: LINKS (edit here)
   // ---------------------------------------------------------------------------
-  const PERSON_IMG = "/src/assets/hero2.jpeg" // TODO: ensure this file exists in your assets
-  const RESUME_URL = "/src/assets/resume.pdf"
+  const PERSON_IMG = heroImg // TODO: ensure this file exists in your assets
+  const RESUME_URL = "/resume.pdf"
   const GOOGLE_FORM_URL = "https://forms.gle/XijEstbTTTCAtJd49" // TODO: paste your form link
   const LINKEDIN_URL = "https://www.linkedin.com/in/gurucharan-senthilkumar-31310324b/"
   const GITHUB_URL = "https://github.com/Gurucharan87318/"
@@ -487,25 +497,25 @@ const certificates = [
     title: "Business value Creation",
     issuer: "Coursera - Duke University",
     date: "Feb 2026",
-    image: "/src/assets/certs/BusinessValue.jpg",
+    image: certBusiness,
   },
     {
     title: "Cash Flow Management",
     issuer: "Coursera - Duke University",
     date: "Aug 2024",
-    image: "/src/assets/certs/CashFlow.jpg",
+    image: certCashFlow,
   },
   {
     title: "GenAI Job Simulation",
     issuer: "BCG - Forage",
     date: "Feb 2026",
-    image: "/src/assets/certs/BCG.jpg",
+    image: certBCG,
   },
   {
     title: "GenAI-Powered Data Analytics",
     issuer: "Tata Group - Forage",
     date: "June 2025",
-    image: "/src/assets/certs/genai.jpg",          // TODO: your cert image paths
+    image: genai,          // TODO: your cert image paths
   },
   
 ] as const
