@@ -1,11 +1,10 @@
----<img width="1896" height="912" alt="Screenshot 2026-03-25 185055" src="https://github.com/user-attachments/assets/c63831e2-5d42-4e90-bf0c-2180db87cdad" />
-
+<img width="1896" height="912" alt="Screenshot 2026-03-25 185055" src="https://github.com/user-attachments/assets/c297873d-de20-4b96-9d49-8de3d6adba0d" />
 
 # Portfolio Setup  
 
 A personal portfolio built to showcase my work in business strategy, product analytics, and full-stack development. Designed to be fast, minimal, and decision-focused — just like the work it presents.
 
-🌐 **Live:** [ https://gurucharansenthilkumarportfolio.netlify.app/ ]
+🌐 **Live:** [ https://gurucharansenthilkumarportfolio.vercel.app/ ]
 
 
 
