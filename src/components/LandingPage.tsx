@@ -190,7 +190,7 @@ function Modal({ open, title, onClose, children }: { open: boolean; title: strin
   if (!open) return null
 
   return (
-    <div className="fixed inset-0 z-[100]">
+    <div className="fixed inset-0 z-100">
       <button aria-label="Close overlay" onClick={onClose} className="absolute inset-0 bg-white/35 backdrop-blur-2xl" />
       <div className="relative mx-auto mt-24 w-[92%] max-w-2xl">
         <div className="rounded-[2rem] border border-slate-200 bg-white shadow-2xl overflow-hidden">
@@ -221,7 +221,7 @@ function CertLightbox({ image, title, onClose }: { image: string; title: string;
   }, [onClose])
 
   return (
-    <div className="fixed inset-0 z-[200] flex items-center justify-center" onClick={onClose}>
+    <div className="fixed inset-0 z-200 flex items-center justify-center" onClick={onClose}>
       <div className="absolute inset-0 bg-black/70 backdrop-blur-xl" />
       <div className="relative z-10 mx-4 w-full max-w-4xl" onClick={(e) => e.stopPropagation()}>
         <img src={image} alt={title} className="w-full h-auto max-h-[85vh] object-contain rounded-2xl shadow-2xl" />
@@ -382,7 +382,7 @@ export default function LandingPage() {
 
       {/* NAVBAR */}
       <nav className="fixed inset-x-0 top-0 z-50 bg-white/80 backdrop-blur-md border-b border-transparent transition-all duration-300">
-        <div className="mx-auto flex h-20 md:h-24 max-w-[1400px] items-center justify-between px-6 lg:px-12">
+        <div className="mx-auto flex h-20 md:h-24 max-w-350 items-center justify-between px-6 lg:px-12">
           <button onClick={() => scrollToSection("intro")} className="text-lg md:text-xl font-bold tracking-tight text-slate-900">
             Gurucharan Senthilkumar
           </button>
@@ -466,7 +466,7 @@ export default function LandingPage() {
 
       <main>
         {/* HERO */}
-        <section id="intro" className="relative mx-auto flex min-h-[90vh] max-w-[1400px] flex-col justify-end bg-white px-6 pb-8 pt-36 md:pt-40 lg:px-12 lg:pb-0">
+        <section id="intro" className="relative mx-auto flex min-h-[90vh] max-w-350 flex-col justify-end bg-white px-6 pb-8 pt-36 md:pt-40 lg:px-12 lg:pb-0">
           <div className="grid h-full grid-cols-1 items-end gap-10 pb-8 lg:grid-cols-12">
             <div className="relative z-10 order-2 lg:order-1 lg:col-span-6 lg:pb-4 pointer-events-none">
               <Reveal>
@@ -502,7 +502,7 @@ export default function LandingPage() {
 
         {/* WORK */}
         <section id="work" className="px-6 lg:px-12 py-18 md:py-22 bg-[#FAFAFA]">
-          <div className="mx-auto max-w-[1400px]">
+          <div className="mx-auto max-w-350">
             <Reveal>
               <div className="mb-12">
                 <h2 className="text-3xl font-bold text-slate-900 tracking-tight">Projects</h2>
@@ -523,7 +523,7 @@ export default function LandingPage() {
 
         {/* RESEARCH */}
         <section id="research" className="px-6 lg:px-12 py-18 md:py-22 bg-white border-t border-slate-50">
-          <div className="mx-auto max-w-[1400px]">
+          <div className="mx-auto max-w-350">
             <Reveal>
               <div className="mb-12">
                 <h2 className="text-3xl font-bold text-slate-900 tracking-tight">Research / Writing</h2>
@@ -542,12 +542,12 @@ export default function LandingPage() {
 
         {/* ABOUT */}
         <section id="about" className="px-6 lg:px-12 py-12 md:py-14 bg-[#FAFAFA]">
-          <div className="mx-auto max-w-[1400px]">
+          <div className="mx-auto max-w-350">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-10 items-center">
               <div className="lg:col-span-5">
                 <Reveal>
                   <div
-                    className="relative mx-auto w-full max-w-[520px] overflow-hidden"
+                    className="relative mx-auto w-full max-w-130 overflow-hidden"
                     style={{ height: IMG_STAGE.heightMobile }}
                   >
                     <div
@@ -611,7 +611,7 @@ export default function LandingPage() {
 
         {/* FOOTER */}
         <footer id="contact" className="bg-[#0B1120] text-slate-400 px-6 lg:px-12 pt-16 pb-12 border-t border-white/5">
-          <div className="mx-auto max-w-[1400px]">
+          <div className="mx-auto max-w-350">
             <Reveal>
               <div className="text-center">
                 <h3 className="text-3xl md:text-4xl font-semibold tracking-tight text-white">
