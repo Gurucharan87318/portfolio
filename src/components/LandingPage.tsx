@@ -590,16 +590,16 @@ export default function LandingPage() {
 
                   <div className="mt-4 flex flex-col sm:flex-row gap-3">
                     <a
-                       href={resumePDF}
+                        href="/resume.pdf"
                         download="Gurucharan_Resume.pdf"
                         target="_blank"
-                       rel="noopener noreferrer"
+                        rel="noopener noreferrer"
                       className="inline-flex items-center justify-center gap-2 rounded-full bg-black px-7 py-3.5 text-sm font-bold text-white shadow-lg shadow-black/20 transition-transform hover:-translate-y-1 active:scale-95"
                     >
                       <Download size={16} />
                       Download Resume
                     </a>
-                    
+
                     <button
                       onClick={() => setIsCertOpen(true)}
                       className="inline-flex items-center justify-center gap-2 rounded-full border border-slate-200 bg-white px-7 py-3.5 text-sm font-bold text-slate-700 shadow-sm transition-transform hover:-translate-y-1 hover:shadow-md active:scale-95"
