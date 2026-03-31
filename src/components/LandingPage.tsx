@@ -22,8 +22,6 @@ import certCashFlow from "../assets/certs/CashFlow.jpg"
 import certBCG from "../assets/certs/BCG.jpg"
 
 
-import resumePDF from '../assets/resume.pdf'
-
 // -----------------------------------------------------------------------------
 // Reveal
 // -----------------------------------------------------------------------------
@@ -589,16 +587,15 @@ export default function LandingPage() {
                   </div>
 
                   <div className="mt-4 flex flex-col sm:flex-row gap-3">
-                    <a
-                        href="/resume.pdf"
-                        download="Gurucharan_Resume.pdf"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      className="inline-flex items-center justify-center gap-2 rounded-full bg-black px-7 py-3.5 text-sm font-bold text-white shadow-lg shadow-black/20 transition-transform hover:-translate-y-1 active:scale-95"
-                    >
-                      <Download size={16} />
-                      Download Resume
-                    </a>
+                  <a
+                   href="/resume.pdf"
+                   download="Gurucharan_Resume.pdf"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-2 rounded-full bg-black px-7 py-3.5 text-sm font-bold text-white shadow-lg shadow-black/20 transition-transform hover:-translate-y-1 active:scale-95">
+                  <Download size={16} />
+                   Download Resume
+                  </a>
 
                     <button
                       onClick={() => setIsCertOpen(true)}
